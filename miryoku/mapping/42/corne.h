@@ -30,6 +30,7 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 39 40
 
 // Define macros for hold-tap key positions
+#define LH_PHT_POSITIONS 16 17 18 19
 #define lh_pht_positions 16 17 18 19
 #define rh_pht_positions 10 11 12 13
 
