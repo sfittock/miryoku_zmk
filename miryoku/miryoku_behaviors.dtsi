@@ -24,7 +24,7 @@
             tapping-term-ms = <100>;
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <&lh_pht_positions>;
+            hold-trigger-key-positions = <&LH_PHT_POSITIONS>;
         };
         rh_pht: right_positional_hold_tap {
             compatible = "zmk,behavior-hold-tap";
@@ -33,7 +33,7 @@
             tapping-term-ms = <100>;
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <&rh_pht_positions>;
+            hold-trigger-key-positions = <&RH_PHT_POSITIONS>;
         };
   };
 };
