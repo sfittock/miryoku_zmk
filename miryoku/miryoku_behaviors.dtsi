@@ -1,6 +1,6 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
-
+#include "mapping/42/corne.h"
 / {
   behaviors {
     u_mt: u_mt {
