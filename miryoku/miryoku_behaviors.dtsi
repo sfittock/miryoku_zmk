@@ -17,7 +17,7 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
-    lh_pht: left_positional_hold_tap {
+    lh_pht: lh_pht {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-unless-interrupted";
@@ -26,7 +26,7 @@
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <LH_PHT_POSITIONS>;
         };
-        rh_pht: right_positional_hold_tap {
+        rh_pht: rh_pht {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-unless-interrupted";
