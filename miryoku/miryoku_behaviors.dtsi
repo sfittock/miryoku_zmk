@@ -24,7 +24,7 @@
             tapping-term-ms = <400>;
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <16 17 18 19>;
+            hold-trigger-key-positions = <KEYS_R THUMBS>;
         };
         rh_pht: rh_pht {
             compatible = "zmk,behavior-hold-tap";
@@ -33,7 +33,7 @@
             tapping-term-ms = <400>;
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <10 11 12 13>;
+            hold-trigger-key-positions = <KEYS_L THUMBS>;
         };
   };
 };
