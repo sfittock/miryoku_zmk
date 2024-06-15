@@ -4,6 +4,8 @@
 #if !defined (MIRYOKU_LAYOUTMAPPING_CORNE)
 
 #define XXX &none
+#define LH_PHT_POSITIONS 16 17 18 19
+#define RH_PHT_POSITIONS 10 11 12 13
 
 #define MIRYOKU_LAYOUTMAPPING_CORNE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
@@ -30,8 +32,7 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 39 40
 
 // Define macros for hold-tap key positions
-#define LH_PHT_POSITIONS 16 17 18 19
-#define RH_PHT_POSITIONS 10 11 12 13
+
 
 #endif
 
