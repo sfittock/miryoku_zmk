@@ -6,7 +6,7 @@
 #define XXX &none
 #define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 
 #define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 
-#defile THUMBS 32 33 34 35 36 37
+#define THUMBS 32 33 34 35 36 37
 
 #define MIRYOKU_LAYOUTMAPPING_CORNE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
